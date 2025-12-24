@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* #ec441e  */
+.text1{
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    /* font-weight: 900; */
+}
+/* .colors{
+    color: #dad2d2;
+} */
+.thecolor{
+    color: #ec441e;
+    border: non;
+}
+.shadows{
+    box-shadow: 1px 1px 4px 10px rgb(233, 229, 229);
+}
+/* HTML: <div class="loader"></div> */
+.loader1 {
+    width: 60px;
+    aspect-ratio: 2;
+    --_g: no-repeat radial-gradient(circle closest-side,#000 90%,#0000);
+    background: 
+      var(--_g) 0%   50%,
+      var(--_g) 50%  50%,
+      var(--_g) 100% 50%;
+    background-size: calc(100%/3) 50%;
+    animation: l3 1s infinite linear;
+  }
+  @keyframes l3 {
+      20%{background-position:0%   0%, 50%  50%,100%  50%}
+      40%{background-position:0% 100%, 50%   0%,100%  50%}
+      60%{background-position:0%  50%, 50% 100%,100%   0%}
+      80%{background-position:0%  50%, 50%  50%,100% 100%}
+  }
+
+  container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .input-box {
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 16px;
+    width: 250px;
+  }
+  
+  .border-label {
+    position: absolute;
+    top: -10px;  /* moves inside border */
+    left: 15px;
+    background: white; /* hides border line behind text */
+    padding: 0 5px;
+    font-size: 14px;
+    color: #000000c0;
+  }

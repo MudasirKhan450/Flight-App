@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "flight_booking_app",
+    "name": "Planeo",
     "slug": "flight_booking_app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/Images/mylogo.png",
     "scheme": "flightbookingapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -20,7 +20,7 @@
     },
     "web": {
       "bundler": "metro",
-      "output": "static",
+      "output": "server",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
